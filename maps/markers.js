@@ -89,4 +89,76 @@ var markers = [
     "lng":27.8400,
     "count":450
   },
+
+  {
+    "name":"London",
+    "lat":51.5000,
+    "lng":-0.1167,
+    "count":1000
+  },
+  {
+    "name":"Berlin",
+    "lat":52.5218,
+    "lng":13.4015,
+    "count":1200
+  },
+  {
+    "name":"Bordeaux",
+    "lat":44.8500,
+    "lng":-0.5950,
+    "count":200
+  },
+  {
+    "name":"Malmo",
+    "lat":55.5833,
+    "lng":13.0333,
+    "count":10
+  },
+
+
+  {
+    "name":"Rome",
+    "lat":40.4000,
+    "lng":12.4833,
+    "count":10
+  },
+  {
+    "name":"Madrid",
+    "lat":55.5833,
+    "lng":-3.6834,
+    "count":10
+  },
+
+  {
+    "name":"Tokio",
+    "lat":35.6762,
+    "lng":139.6503,
+    "count":5
+  },
+
+  // USA    
+  {
+    "name":"Chicago",
+    "lat":41.8373,
+    "lng":-87.6862,
+    "count":1500
+  },
+  {
+    "name":"New York",
+    "lat":40.7498,
+    "lng":-73.7976,
+    "count":500
+  },
+  {
+    "name":"Los Angeles",
+    "lat":-37.4600,
+    "lng":-72.3600,
+    "count":200
+  },
+  {
+    "name":"Washington",
+    "lat":47.4758,
+    "lng":-122.1905,
+    "count":350
+  },
 ]
