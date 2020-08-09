@@ -150,9 +150,9 @@ var markers = [
     "count":500
   },
   {
-    "name":"Los Angeles",
-    "lat":-37.4600,
-    "lng":-72.3600,
+    "name":"Dallas",
+    "lat":44.9222,
+    "lng":-123.3131,
     "count":200
   },
   {
@@ -160,5 +160,68 @@ var markers = [
     "lat":47.4758,
     "lng":-122.1905,
     "count":350
+  },
+  {
+    "name":"Washington",
+    "lat":47.4758,
+    "lng":-122.1905,
+    "count":350
+  },
+
+  {
+    "name":"Kiev",
+    "lat":50.4501,
+    "lng":30.5234,
+    "count":350
+  },
+
+  {
+    "name":"Kiev",
+    "lat":50.4501,
+    "lng":30.5234,
+    "count":5
+  },
+
+  {
+    "name":"Barcelona",
+    "lat":10.1304,
+    "lng":-64.7200,
+    "count":50
+  },
+
+  {
+    "name":"Malaga",
+    "lat":36.7204,
+    "lng":-4.4200,
+    "count":10
+  },
+
+  {
+    "name":"Sidney",
+    "lat":40.2891,
+    "lng":-84.1667,
+    "count":20
+  },
+
+  {
+    "name":"Glasgow",
+    "lat":55.8744,
+    "lng":-4.2507,
+    "count":50
+  },
+
+
+  {
+    "name":"Johannesburg",
+    "lat":-26.1700,
+    "lng":28.0300,
+    "count":10
+  },
+
+  {
+    "name":"Warsaw",
+    "lat":52.2500,
+    "lng":21.0000,
+    "count":10
   },
 ]
