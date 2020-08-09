@@ -1,9 +1,11 @@
 // See post: http://asmaloney.com/2015/06/code/clustering-markers-on-leaflet-maps
 
+screenWidth = $(window).width();
+zoom = screenWidth > 700 ? 8 : 6
 var map = L.map('map', {
   center: [42.7339, 25.4858],
   minZoom: 2,
-  zoom: 8
+  zoom: zoom
 });
 
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -21,7 +23,15 @@ var myIcon = L.icon({
   popupAnchor: [0, -14]
 });
 
-var markerClusters = L.markerClusterGroup({maxClusterRadius: 40});
+var markerClusters = L.markerClusterGroup({
+  //maxClusterRadius: 40,
+  maxClusterRadius: function(zoom) { 
+    if (zoom > 5) {
+      return 0;
+    }
+    return 70;
+   }
+});
 
 for (var i = 0; i < markers.length; ++i) {
   for (var j = 0; j < markers[i].count; ++j) {

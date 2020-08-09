@@ -28,7 +28,7 @@
         body {
             display: flex;
             flex-direction: column;
-            font-family: Arial;
+            font-family: 'Anton', sans-serif;
             margin: 0;
         }
 
@@ -40,6 +40,7 @@
             justify-content: center;
             align-items: flex-end;
             padding-top: 9rem;
+            text-align: center;
         }
 
         header h1 {
@@ -53,7 +54,7 @@
 
 
         .moto {
-            padding: 3rem 0;
+            padding: 3rem 2rem;
             font-family: 'Kelly Slab', cursive;
 
             color: #285582;
@@ -70,10 +71,10 @@
 
         .map-container {
             padding-top: 3rem;
-            padding-bottom: 1rem;
+            padding-bottom: 2rem;
 
-            padding-left: 0.1rem;
-            padding-right: 0.1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
             display: flex;
             justify-content: center;
 
@@ -89,7 +90,7 @@
         .total-container {
             display: flex;
             background-color: white;
-            justify-content: space-evenly;
+            justify-content: space-around;
             padding: 3rem 7rem;
 
         }
@@ -109,22 +110,19 @@
         }
 
         .card-container {
-            font-family: Anton;
-
             color: #1a528d;
             text-align: center;
-            font-weight: 200;
+            font-weight: 600;
         }
 
         footer {
             background: #285582;
             display: flex;
             justify-content: center;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-            font-size: 1.4rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            font-size: 0.9rem;
             color: white;
-            font-family: Anton;
         }
 
         footer a {
@@ -149,6 +147,16 @@
             .card-sold {
                 font-weight: 400;
             }
+
+            .map-container {
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+        }
+
+        #map {
+            height: 400px;
+        }
         }
     </style>
 </head>
@@ -157,18 +165,18 @@
 
 
     <header>
-        <h1>Левски това е България</h1>
+        <h1>Левски - това е България</h1>
     </header>
 
 
     <section class="total-container">
 
         <div class="card-container">
-            <div class="card-sold">24, 500</div>
+            <div class="card-sold">24,500</div>
             <div class="card-name">Сребърни карти</div>
         </div>
         <div class="card-container">
-            <div class="card-sold">4, 500</div>
+            <div class="card-sold">4,500</div>
             <div class="card-name">Златни карти</div>
         </div>
         <div class="card-container">
@@ -176,7 +184,7 @@
             <div class="card-name">Платинени карти</div>
         </div>
         <div class="card-container">
-            <div class="card-sold">555, 700лв.</div>
+            <div class="card-sold">555,700лв.</div>
             <div class="card-name">Приход</div>
         </div>
     </section>

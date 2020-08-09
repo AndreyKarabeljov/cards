@@ -6,6 +6,12 @@ var markers = [
     "count":10000
   },
   {
+    "name":"Lozen",
+    "lat":42.6017, 
+    "lng":23.4827,
+    "count":50
+  }, 
+  {
     "name":"Haskovo",
     "lat":41.9438,
     "lng":25.5633,
