@@ -53,7 +53,7 @@
 
 
         .moto {
-            padding-top: 3rem;
+            padding: 3rem 0;
             font-family: 'Kelly Slab', cursive;
 
             color: #285582;
@@ -70,30 +70,34 @@
 
         .map-container {
             padding-top: 3rem;
-            padding-bottom: 7rem;
+            padding-bottom: 1rem;
 
-            padding-left: 2rem;
-            padding-right: 2rem;
+            padding-left: 0.1rem;
+            padding-right: 0.1rem;
             display: flex;
             justify-content: center;
 
         }
 
         #map {
-            height: 400px;
-            width: 1000px;
+            height: 700px;
+            width: 1600px;
             border: lightgrey;
             border-style: groove;
         }
 
         .total-container {
             display: flex;
-            background-color: #1a528d;
+            background-color: white;
             justify-content: space-evenly;
             padding: 3rem 7rem;
-            flex-wrap: wrap;
 
         }
+
+        .delimiter {
+    border-bottom: 4px double #1a528d;
+    padding: 1px 0;
+}
 
         .card-sold {
             font-size: 50px;
@@ -105,21 +109,26 @@
         }
 
         .card-container {
-            color: white;
+            font-family: Anton;
+
+            color: #1a528d;
             text-align: center;
             font-weight: 200;
         }
 
         footer {
+            background: #285582;
             display: flex;
             justify-content: center;
             padding-top: 2rem;
             padding-bottom: 2rem;
             font-size: 1.4rem;
+            color: white;
+            font-family: Anton;
         }
 
         footer a {
-            color: #1a528d;
+            color: white;
         }
 
         @media screen and (max-width: 700px) {
@@ -130,7 +139,7 @@
 
             header h1 {
                 font-size: 38px;
-            padding-bottom: 5rem;
+                padding-bottom: 5rem;
             }
 
             .card-container {
@@ -145,9 +154,34 @@
 </head>
 
 <body>
+
+
     <header>
         <h1>Левски това е България</h1>
     </header>
+
+
+    <section class="total-container">
+
+        <div class="card-container">
+            <div class="card-sold">24, 500</div>
+            <div class="card-name">Сребърни карти</div>
+        </div>
+        <div class="card-container">
+            <div class="card-sold">4, 500</div>
+            <div class="card-name">Златни карти</div>
+        </div>
+        <div class="card-container">
+            <div class="card-sold">500</div>
+            <div class="card-name">Платинени карти</div>
+        </div>
+        <div class="card-container">
+            <div class="card-sold">555, 700лв.</div>
+            <div class="card-name">Приход</div>
+        </div>
+    </section>
+    <div class="delimiter"></div>
+
     <main>
         <section class="moto">
             <div>
@@ -158,31 +192,19 @@
             </div>
 
         </section>
+
+    <div class="delimiter"></div>
+
+
         <section class="map-container">
             <div id="map"></div>
             <script type='text/javascript' src='maps/markers.js'></script>
             <script type='text/javascript' src='maps/leaf-demo.js'></script>
         </section>
 
-        <section class="total-container">
-            <div class="card-container">
-                <div class="card-sold">24, 500</div>
-                <div class="card-name">Сребърни карти</div>
-            </div>
-            <div class="card-container">
-                <div class="card-sold">4, 500</div>
-                <div class="card-name">Златни карти</div>
-            </div>
-            <div class="card-container">
-                <div class="card-sold">500</div>
-                <div class="card-name">Платинени карти</div>
-            </div>
-            <div class="card-container">
-                <div class="card-sold">555, 700лв.</div>
-                <div class="card-name">Приход</div>
-            </div>
-        </section>
+
     </main>
+
     <footer>
         <div>
             Членски карти на
