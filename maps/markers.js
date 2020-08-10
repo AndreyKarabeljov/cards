@@ -1,96 +1,108 @@
 var markers = [
   {
-    "name":"Sofia",
+    "name":"София",
     "lat":42.6977, 
     "lng":23.3219,
     "count":10000
   },
   {
-    "name":"Lozen",
+    "name":"Лозен",
     "lat":42.6017, 
     "lng":23.4827,
     "count":50
-  }, 
+  },
   {
-    "name":"Haskovo",
+    "name":"Босилеград",
+    "lat":42.5085, 
+    "lng":22.4649,
+    "count":20
+  },
+  {
+    "name":"Исперих",
+    "lat":43.7162, 
+    "lng":26.8307,
+    "count":200
+  },  
+  {
+    "name":"Хасково",
     "lat":41.9438,
     "lng":25.5633,
     "count":300
   },
   {
-    "name":"Burgas",
+    "name":"Бургас",
     "lat":42.5146,
     "lng":27.4746,
     "count":700
   },
   {
-    "name":"Varna",
+    "name":"Варна",
     "lat":43.2156,
     "lng":27.8953,
     "count":1300
   },
   {
-    "name":"Plovdiv",
+    "name":"Пловдив",
     "lat":42.1540,
     "lng":24.7540,
     "count":1500
   },
   {
-    "name":"Ruse",
+    "name":"Русе",
     "lat":43.8537,
     "lng":25.9733,
     "count":400
   },
   {
-    "name":"Kyustendil",
+    "name":"Кюстендил",
     "lat":42.2843,
     "lng":22.6911,
     "count":500
   },
   {
-    "name":"Blagoevgrad",
+    "name":"Благоевград",
     "lat":42.0167,
     "lng":23.1000,
     "count":200
   },
   {
-    "name":"Vidin",
+    "name":"Видин",
     "lat":43.9900,
     "lng":22.8725,
     "count":300
   },
   {
-    "name":"Pleven",
+    "name":"Плевен",
     "lat":43.4238,
     "lng":24.6134,
     "count":500
   },
   {
-    "name":"Stara Zagora",
+    "name":"Стара Загора",
     "lat":42.4231,
     "lng":25.6227,
     "count":600
   },
   {
-    "name":"Veliko Turnovo",
+    "name":"Велико Търново",
     "lat":43.0862,
     "lng":25.6555,
     "count":1000
   },
   {
-    "name":"Vratsa",
+    "name":"Враца",
     "lat":43.2100,
     "lng":23.5625,
     "count":450
   },
   {
-    "name":"Targovishte",
+    "name":"Търговище",
     "lat":43.2592,
     "lng":26.5892,
     "count":200
   },
   {
-    "name":"Dobrich",
+    "name":"Добрич",
     "lat":43.5851,
     "lng":27.8400,
     "count":450
@@ -123,15 +135,15 @@ var markers = [
 
 
   {
-    "name":"Rome",
-    "lat":40.4000,
-    "lng":12.4833,
+    "name":"Rome", 
+    "lat":41.9028,
+    "lng":12.4964,
     "count":10
   },
   {
     "name":"Madrid",
-    "lat":55.5833,
-    "lng":-3.6834,
+    "lat":40.4168,
+    "lng":-3.7038,
     "count":10
   },
 
@@ -190,8 +202,8 @@ var markers = [
 
   {
     "name":"Barcelona",
-    "lat":10.1304,
-    "lng":-64.7200,
+    "lat":41.3851,
+    "lng":2.1734,
     "count":50
   },
 
@@ -204,8 +216,8 @@ var markers = [
 
   {
     "name":"Sidney",
-    "lat":40.2891,
-    "lng":-84.1667,
+    "lat":-33.8688,
+    "lng":151.2093,
     "count":20
   },
 

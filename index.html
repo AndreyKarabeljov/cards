@@ -4,6 +4,7 @@
     <title>Левски това е България</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
     <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -96,9 +97,9 @@
         }
 
         .delimiter {
-    border-bottom: 4px double #1a528d;
-    padding: 1px 0;
-}
+            border-bottom: 4px double #1a528d;
+            padding: 1px 0;
+        }
 
         .card-sold {
             font-size: 50px;
@@ -129,6 +130,15 @@
             color: white;
         }
 
+
+        .cityPopup .leaflet-popup-tip,
+        .cityPopup .leaflet-popup-content-wrapper {
+            background: #285582;
+            color: white;
+            font-family: 'Kelly Slab', cursive;
+            font-size: 1.1rem;
+        }
+
         @media screen and (max-width: 700px) {
             .total-container {
                 flex-direction: column;
@@ -149,14 +159,14 @@
             }
 
             .map-container {
-            padding-left: 2rem;
-            padding-right: 2rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
 
-        }
+            }
 
-        #map {
-            height: 400px;
-        }
+            #map {
+                height: 400px;
+            }
         }
     </style>
 </head>
@@ -194,14 +204,14 @@
         <section class="moto">
             <div>
                 <i>„Кажи им, че има една страна България,</i><br>
-                <i>в тази страна България има един отбор Левски,</i><br>
-                <i>може и да не са чували за него, </i><br>
-                <i>в този отбор съм се родил, в този отбор ще умра!“</i>
+                <i>В тази страна България има един отбор Левски,</i><br>
+                <i>Може и да не са чували за него, </i><br>
+                <i>В този отбор съм се родил, в този отбор ще умра!“</i>
             </div>
 
         </section>
 
-    <div class="delimiter"></div>
+        <div class="delimiter"></div>
 
 
         <section class="map-container">
